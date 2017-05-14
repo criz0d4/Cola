@@ -1,0 +1,1 @@
+/home/cristian/Escritorio/codigos/Cola/build/CMakeFiles/Cola.dir

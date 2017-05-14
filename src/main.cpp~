@@ -1,0 +1,29 @@
+/**
+Nombre(s): Juan Manuel Vazquez Jimenez
+*/
+
+#include "Cola.h"
+
+
+int main()
+{
+	Cola c = Cola();
+	c.InsertarF(1);
+	c.InsertarF(2);
+	c.InsertarF(3);
+	c.InsertarF(4);
+	c.Show();
+	std::cout<< " "<< std::endl;
+
+	c.BorrarP();
+	c.Show();
+	std::cout<< " "<< std::endl;
+
+	c.VaciarCola();
+	c.Show();
+
+
+
+
+	return 0;
+}
